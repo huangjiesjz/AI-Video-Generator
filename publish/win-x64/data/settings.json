@@ -1,0 +1,14 @@
+{
+  "AgnesApiUrl": "https://apihub.agnes-ai.com/v1/videos",
+  "AgnesModelName": "agnes-video-v2.0",
+  "AgnesFlashApiUrl": "https://apihub.agnes-ai.com/v1/chat/completions",
+  "AgnesFlashModelName": "agnes-2.0-flash",
+  "AgnesApiKey": "",
+  "GiteeToken": "",
+  "GiteeOwner": "arksoft2026",
+  "GiteeRepo": "huangjie",
+  "GiteeBranch": "master",
+  "GiteePath": "images",
+  "OutputDirectory": "D:\\\u559C\u5267\u4E4B\u738B",
+  "ReduceMotion": false
+}
