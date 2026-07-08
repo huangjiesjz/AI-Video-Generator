@@ -1,0 +1,32 @@
+# 源代码（不发布）
+source/
+
+# 敏感凭据文件
+publish/win-x64/data/credentials.json
+publish/win-x64/credential_log.txt
+
+# 开发文档（不发布）
+docs/
+
+# 内部文档
+design-qa.md
+
+# 版本说明（内部记录）
+版本说明_*.md
+
+# PDB调试符号
+*.pdb
+
+# NuGet缓存
+*.nupkg
+*.nuget.props
+*.nuget.targets
+
+# 编译中间文件
+obj/
+bin/
+
+# 系统文件
+Thumbs.db
+Desktop.ini
+.DS_Store

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>API Key 设置引导</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background: #08111f;
+    color: #e9f3ff;
+    font-family: "Microsoft YaHei", "Segoe UI", Arial, sans-serif;
+  }
+
+  body {
+    border-top: 4px solid #18d8ff;
+  }
+
+  .page {
+    padding: 30px 38px 34px;
+  }
+
+  .hero {
+    background: #101d31;
+    border: 1px solid #2b6f9a;
+    padding: 22px 24px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 28px;
+    line-height: 1.25;
+    color: #ffffff;
+  }
+
+  .subtitle {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #9fd8ff;
+  }
+
+  .steps {
+    width: 100%;
+    border-spacing: 14px;
+    margin-left: -14px;
+    margin-right: -14px;
+  }
+
+  .card {
+    vertical-align: top;
+    width: 33.3%;
+    background: #0d1b2f;
+    border: 1px solid #244b70;
+    padding: 20px 18px;
+  }
+
+  .num {
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    background: #06c7ff;
+    color: #04101f;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+
+  h2 {
+    margin: 0 0 10px;
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+  p {
+    margin: 0;
+    color: #b7cbe2;
+    font-size: 13px;
+    line-height: 1.75;
+  }
+
+  a, .button-like {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 9px 14px;
+    color: #ffffff;
+    background: #1268c7;
+    border: 1px solid #4fb7ff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .note {
+    margin-top: 20px;
+    padding: 14px 16px;
+    background: #13243a;
+    border-left: 4px solid #ffcc33;
+    color: #f3d889;
+    font-size: 13px;
+    line-height: 1.8;
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+    <div class="hero">
+      <h1>欢迎使用 Agnes AI</h1>
+      <div class="subtitle">首次使用需要先配置 API Key。完成下面三步后，回到软件全局设置里粘贴并保存。</div>
+    </div>
+
+    <table class="steps" role="presentation">
+      <tr>
+        <td class="card">
+          <div class="num">1</div>
+          <h2>注册 Agnes AI</h2>
+          <p>访问 Agnes AI 官网，按页面提示完成注册。注册完成后登录账号。</p>
+          <a href="https://agnes-ai.com/" target="_blank">打开 agnes-ai.com</a>
+        </td>
+        <td class="card">
+          <div class="num">2</div>
+          <h2>获取 API Key</h2>
+          <p>进入 API 平台页面，创建并复制你的 API Key。请不要把 Key 发给别人。</p>
+          <a href="https://app.agnes-ai.com/" target="_blank">前往 API 平台</a>
+        </td>
+        <td class="card">
+          <div class="num">3</div>
+          <h2>填入全局设置</h2>
+          <p>回到软件，点击下方按钮打开全局设置，将 API Key 粘贴到输入框并保存。</p>
+          <span class="button-like">打开全局设置填写 API Key</span>
+        </td>
+      </tr>
+    </table>
+
+    <div class="note">
+      配置完成后再次启动软件就不会再弹出这个窗口。视频生成和提示词扩写共用同一个 API Key。
+    </div>
+  </div>
+</body>
+</html>
