@@ -4,11 +4,8 @@
   "AgnesFlashApiUrl": "https://apihub.agnes-ai.com/v1/chat/completions",
   "AgnesFlashModelName": "agnes-2.0-flash",
   "AgnesApiKey": "",
-  "GiteeToken": "",
-  "GiteeOwner": "arksoft2026",
-  "GiteeRepo": "huangjie",
-  "GiteeBranch": "master",
-  "GiteePath": "images",
-  "OutputDirectory": "D:\\\u559C\u5267\u4E4B\u738B",
+  "ImgosToken": "",
+  "CzlToken": "",
+  "OutputDirectory": "C:\\Users\\Administrator\\Videos\\AI Video Studio",
   "ReduceMotion": false
 }

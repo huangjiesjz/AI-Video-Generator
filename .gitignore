@@ -4,6 +4,10 @@ source/
 # 敏感凭据文件
 publish/win-x64/data/credentials.json
 publish/win-x64/credential_log.txt
+publish/win-x64/app_secrets.json
+
+# 大文件 ZIP（通过 Release 页面单独发布）
+*.zip
 
 # 开发文档（不发布）
 docs/
