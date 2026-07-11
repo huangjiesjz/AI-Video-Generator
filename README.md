@@ -30,7 +30,7 @@ AI Video Generator is a **free**, easy-to-use desktop application that leverages
 
 ### 1. Download
 
-Download the latest release from [Releases](https://github.com/huangjiesjz/AI-Video-Generator/releases) page and extract the ZIP file.
+Download the latest release from [Releases](https://gitee.com/arksoft2026/ai-video-generator-batch/releases) page and extract the ZIP file.
 
 ### 2. Run
 
