@@ -34,3 +34,6 @@ bin/
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+# 发布压缩包（通过 Releases 上传）
+*.zip
