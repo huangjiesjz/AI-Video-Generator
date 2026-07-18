@@ -1,4 +1,4 @@
-# AI Video Generator
+# AI Video Generator - v9.00719 Batch Stable Edition
 
 <p align="center">
   <strong>Free Batch AI Video Generation Tool</strong>
@@ -16,7 +16,15 @@
 
 AI Video Generator is a **free**, easy-to-use desktop application that leverages the [Agnes AI V2.0](https://agnes-ai.com/) model to generate 720P HD videos from text prompts. No subscription required -- just register and start creating.
 
-## ✨ Key Features
+## Version: v9.00719 (Batch Stable Edition)
+
+- Complete single/batch video generation workflow
+- Material management with upload, replace, and enlarged preview
+- History records with task status and direct output folder access
+- Keyboard shortcuts: Ctrl+G (single submit), Ctrl+B (batch submit), Ctrl+S (save settings)
+- Persistent output directory bar at the top
+
+## Key Features
 
 | Feature | Description |
 |---------|-------------|
@@ -30,7 +38,7 @@ AI Video Generator is a **free**, easy-to-use desktop application that leverages
 
 ### 1. Download
 
-Download the latest release from [Releases](https://gitee.com/arksoft2026/ai-video-generator-batch/releases) page and extract the ZIP file.
+Download the latest release from [Releases](https://github.com/huangjiesjz/AI-Video-Generator/releases) or [Gitee Releases](https://gitee.com/arksoft2026/ai-video-generator-batch/releases) page and extract the ZIP file.
 
 ### 2. Run
 
@@ -54,9 +62,43 @@ On first launch, a guide page will appear:
 3. Click generate and wait for the output
 
 ### Batch Video Generation
-1. Prepare a list of prompts (or use the batch template)
+1. Prepare a list of prompts (or use the batch template `batch_prompts_template.txt`)
 2. Load them into the batch workflow
 3. Submit all tasks at once and monitor progress
+
+## 📝 Batch Prompt Tips (Important!)
+
+For **batch prompt generation**, we recommend using **Agnes Code** to let the AI agent help you generate **pure English prompts**. 
+
+### Recommended Format:
+- Each prompt should be written in **English only** for maximum accuracy
+- Separate different prompts with `---` on a blank line
+
+### Example:
+
+```
+A cinematic shot of a futuristic city skyline at sunset, golden light reflecting off glass towers, drones flying between buildings, ultra detailed, 720P.
+
+---
+
+A close-up of a hand holding a glowing smartphone, holographic interface floating above the screen, dark background with bokeh lights, tech commercial style.
+
+---
+
+Time-lapse of a flower blooming in a garden, morning dew drops visible, soft sunlight, macro photography style, nature documentary feel.
+```
+
+### Why English Prompts?
+- Agnes AI models are optimized for English prompt understanding
+- English prompts produce more accurate and higher quality video outputs
+- Technical terms and scene descriptions translate more precisely
+
+### Using Agnes Code:
+1. Open Agnes Code and activate the AI agent
+2. Describe the videos you want to generate
+3. The agent will generate professional English prompts
+4. Copy the prompts into the batch input (separated by `---`)
+5. Submit for batch generation
 
 ## 📋 System Requirements
 
